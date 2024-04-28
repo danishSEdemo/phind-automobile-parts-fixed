@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automobile Parts Store</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #0056b3;
+        }
+        .navbar .navbar-brand {
+            color: #fff;
+        }
+        .navbar .navbar-nav .nav-link {
+            color: #fff;
+        }
+        .hero {
+            background-image: url('https://source.unsplash.com/random/1920x1080?automobile,parts');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .product-section {
+            padding: 50px 0;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Automobile Parts</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1 style="color: black;">Quality Automobile Parts</h1>
+        <p style="color: black;">Experience the best exhausts and custom rims</p>
+    </div>
+
+    <!-- Product Section -->
+    <div class="container product-section">
+        <h2 class="text-center">Our Products</h2>
+        <div class="row">
+            <!-- Product Card -->
+            <div class="col-md-4 product-card">
+                <img src="https://source.unsplash.com/random/300x200?exhaust" alt="Exhaust">
+                <h3>Exhaust System</h3>
+                <p>High-quality exhaust system for your vehicle.</p>
+                <button class="btn btn-primary" style="background-color: #0056b3;">View Details</button>
+            </div>
+            <!-- Product Card -->
+            <div class="col-md-4 product-card">
+                <img src="https://source.unsplash.com/random/300x200?rims" alt="Custom Rims">
+                <h3>Custom Rims</h3>
+                <p>Stylish and durable custom rims for your ride.</p>
+                <button class="btn btn-primary" style="background-color: #0056b3;">View Details</button>
+            </div>
+            <!-- Product Card -->
+            <div class="col-md-4 product-card">
+                <img src="https://source.unsplash.com/random/300x200?parts" alt="Automobile Parts">
+                <h3>More Parts</h3>
+                <p>Explore our wide range of automobile parts.</p>
+                <button class="btn btn-primary" style="background-color: #0056b3;">View Details</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
